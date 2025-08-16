@@ -1,0 +1,31 @@
+.about-page {
+  max-width: 700px;
+  margin: 32px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  color: #222;
+}
+
+.about-page h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+.about-page p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .about-page {
+    padding: 12px;
+    font-size: 1rem;
+  }
+  .about-page h2 {
+    font-size: 1.4rem;
+  }
+}

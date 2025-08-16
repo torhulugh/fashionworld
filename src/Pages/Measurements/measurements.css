@@ -1,0 +1,55 @@
+.measurements-container {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.measurements-container h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #111;
+  text-align: center;
+}
+
+.measurements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.measurement-card {
+  background: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+  text-align: left;
+  transition: box-shadow 0.2s;
+}
+
+.measurement-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.measurement-label {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.measurement-details p {
+  font-size: 1rem;
+  color: #444;
+  margin: 4px 0;
+}
+
+@media (max-width: 700px) {
+  .measurements-container {
+    padding: 12px;
+  }
+  .measurements-grid {
+    gap: 10px;
+  }
+}
