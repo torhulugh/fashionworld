@@ -56,3 +56,6 @@
     font-size: 1.4rem;
   }
 }
+li {
+  list-style: none;
+}
